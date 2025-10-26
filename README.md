@@ -7,13 +7,6 @@ The model predicts peptide labels (positive/negative) based on these features.
 
 ---
 
-## Authors
-- **Ishika Gupta (MT25180)**  
-- **Kirti Singh (MT25212)**  
-- First Year M.Tech, Computational Biology, IIIT Delhi  
-
----
-
 ## Features
 
 - **Input:** CSV files containing peptide sequences and labels (for training) or sequences only (for testing).  
@@ -68,7 +61,7 @@ Example:
 ### **Execution Command**
 ```bash
 python3 code_final_2.py -i train.csv -t test.csv
-
+```
 **Arguments**
 
 Flag	Description	Default
