@@ -1,9 +1,15 @@
 # Peptide Classification Using SVM and Pfeature
 
 ## Overview
+
 This project implements a **peptide classification model** using **Support Vector Machine (SVM)** in Python.  
 The features for the peptides are extracted using **Pfeature**, specifically **Amino Acid Composition (AAC)**.  
 The model predicts peptide labels (positive/negative) based on these features.  
+
+---
+## Project Status
+This project was developed as my **first machine learning project** to understand end-to-end peptide classification using feature extraction (Pfeature) and SVM.
+The focus was on building a clean, reproducible pipeline rather than maximizing accuracy.
 
 ---
 
@@ -126,3 +132,4 @@ output_features.CSV containing predicted probabilities for test peptides:
 - Scikit-learn: Machine learning in Python Documentation.
 
 - SVM for Peptide Classification: Standard supervised learning method using amino acid composition or other descriptors.
+
