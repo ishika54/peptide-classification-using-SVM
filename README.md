@@ -1,4 +1,4 @@
-# Peptide Classification Using SVM and Pfeature
+# Peptide Classification using SVM and Pfeature
 
 ## Overview
 
@@ -66,7 +66,7 @@ Example:
 
 ### **Execution Command**
 ```bash
-python3 code_final_2.py -i train.csv -t test.csv
+python3 baseline_svm/code_final_2.py -i data/train.csv -t data/test.csv
 ```
 **Arguments**
 
@@ -132,4 +132,5 @@ output_features.CSV containing predicted probabilities for test peptides:
 - Scikit-learn: Machine learning in Python Documentation.
 
 - SVM for Peptide Classification: Standard supervised learning method using amino acid composition or other descriptors.
+
 
